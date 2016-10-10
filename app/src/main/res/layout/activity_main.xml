@@ -11,7 +11,10 @@
     tools:context="com.vgaw.logview.MainActivity">
 
     <TextView
+        android:id="@+id/tv_test"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Hello World!"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
 </RelativeLayout>

@@ -1,5 +1,7 @@
 package com.vgaw.logview.log;
 
+import android.graphics.Color;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.TextView;
 
@@ -23,6 +25,7 @@ public class LogHolder extends EasyHolder {
     @Override
     public View createView() {
         tv = (TextView) view.findViewById(android.R.id.text1);
+        tv.setTextColor(Color.BLUE);
         return view;
     }
 
